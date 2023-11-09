@@ -60,6 +60,9 @@
             @endforeach
         </tbody>
     </table>
+    <div class="container ml-5">
+    {{$products->links()}}
+    </div>
 </body>
 
 </html>
